@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>V-Fitness</title>
+</head>
+	<link rel="stylesheet" href="Input.css">
+    <body onbeforeunload="return leave()" class="loginbackground">
+        
+        
+         <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div >
+            <div class="SignUpbox">
+                <label style="font-size: 25px;"><strong>Sign Up<br></strong></label>
+                <form action="/action_page.php">
+                <input type="email" name="mail" placeholder="Email Address... "><br>
+                <input type="password" name="password" placeholder="Your Password..." ><br>
+                <input type="password" name="confirm password" placeholder="Comfirm Password..." ><br>
+                <label><input type="checkbox" style="margin-bottom:15px">Remember me</label>
+                <input type="submit" value="Submit"><br><br>
+                <label>Already have an account? <a href="Login.html"> Click Here</a> to Login.</label><br>
+                </form> 
+            </div>
+        </div>
+        <script>
+            function leave() {
+            return "This page is asking you to confirm that you want to leave - data you have entered may not be saved.";
+                }
+        </script>
+        
+    </body>
+</html>

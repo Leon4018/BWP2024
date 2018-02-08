@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact-Us</title>
+        	<link rel="stylesheet" href="All.css">
+        <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	
+
+
+    <body style="background-color: #cccccc">
+	<nav id="Top">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#Event">Event</a></li>
+            <li><a href="ContactUs.html">Contact</a></li>
+            <li style="float: right"><a href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+        
+        
+<div class="container">
+	<div class="contactbox">
+<h1 class="getintouch" ><strong>CONTACT US</strong></h1>
+   <p>We are here to answer any question you may have about our services or any inquiries. Reach out to us and we'll respond as soon as we can</p>
+    <p>Even if there is something that you wanted to experience and can't find on our pages, let us know and we promise we'll do our best to find it.</p>
+    <p>We also willing to hear any ideas or comment of you</p>
+    
+    <form action="/action_page.php">
+    <label class="contactfont"><strong>Name:</strong></label>
+    <input type="text" name="name" placeholder="Your Username... ">
+    <label class="contactfont"><strong>Email:</strong></label>
+    <input type="email" name="mail" placeholder="Email... "><br>
+    <label class="contactfont"><strong>Message:</strong></label>
+    <input type="text" name="msg " placeholder="Your message... " class="msg"><br><br>
+    
+    <input type="reset" value="Cancel" class="reset">
+    <input type="submit" value="Submit" class="submit">
+    </form>
+    </div>
+
+	<div class="contactbox2">
+		<h4>Or concact us by sending email</h4>
+    		<strong>info</strong>:<a style="text-decoration-line: none" href="mailto:Bernard@gmail.com">Bernard@gmail.com<br></a>
+    		<br><strong>Sales</strong>:<a style="text-decoration-line: none" href="mailto:Teckong@gmail.com" >Teckong@gmail.com<br></a>
+    		<br><strong>Customer Service</strong>:<a style="text-decoration-line: none" href="mailto:Daniel@gmail.com" >Daniel@gmail.com<br></a>
+    		<br><strong>Support:</strong><a style="text-decoration-line: none" href="mailto:Shawn@gmail.com">Shawn@gmail.com</a> 
+    		<br><br>OR
+    		<a style="text-decoration-line: none" href="mailto:Leon@gmail.com" >Leon@gmail.com<br></a>
+    		
+		<p class="contact2"></p>
+		<strong>Tel:03-40453607</strong><br>
+    		<br><strong>H/P:012-345-6789</strong><br><br>
+		
+   		<i style="margin-right: 10px;">Follow Us at: </i><br>
+        
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+        <br><br>
+        </div>
+
+</div>
+	
+
+            <p style="text-align: center;font-size:25px;margin: 5px; "><strong>Our Location</strong></p>
+            <p style="text-align: center;font-size:25px;margin: 5px;">No. 94 Jln 4/48 Taman Dato Senu,Wilayah Persekutuan,51000 Malaysia<br></p>
+        <div id="map" style="width:95%;height:500px;background:yellow; margin:auto;">
+
+        <script>
+            function myMap() {
+                var position = { lat: 3.193522, lng: 101.696527};
+                
+                var mapOptions = {
+                    center: position,
+                    zoom: 15,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                
+                var marker = new google.maps.Marker({
+                    position: position,
+                    map: map
+                });
+                    }
+</script></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCUql1bFnX_8sPPgLITURl_FnQ_SYXDkek&callback=myMap"></script>
+
+ <br><div> 
+   <a href="#Top" style="color: azure; text-decoration: none;"><p class="backtotop">Back to Top</p></a><br>
+</div>
+
+
+
+</body>
+</html>
