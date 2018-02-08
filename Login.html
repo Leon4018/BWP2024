@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+	<link rel="stylesheet" href="Input.css">
+    <body onbeforeunload="return leave()" class="loginbackground">
+        
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+
+            <div >
+                <div class="loginbox">
+        
+                    <div style="text-align: center;"><a href="index.html"><img src="Image/logo.png" alt="Logo" width="200px" height="160px" ></a></div>
+        
+                    <label style="font-size: 25px;"><strong>Login<br></strong></label>
+                
+                    <form action="/action_page.php">
+                    <input type="text" name="firstname" placeholder="Your Username... "><br>
+                    <input type="password" name="password" placeholder="Your Password..." ><br>
+                    <input type="submit" value="Submit"><br><br>
+                    <label>Forget Password? <a href=""> Click Here</a></label>
+                    <label style="float: right">Don't have an account? <a href="SignUp.html"> Sign Up Here</a></label><br><br>
+                    </form> 
+                </div>
+            </div>
+        
+        <script>
+            function leave() {
+            return "This page is asking you to confirm that you want to leave - data you have entered may not be saved.";
+                }
+</script>
+        
+    </body>
+</html>

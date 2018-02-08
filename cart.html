@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>V-Fitness</title>
+</head>
+	<link rel="stylesheet" href="Input.css">
+    <body onbeforeunload="return leave()" class="loginbackground">
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ContactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div >
+            <div class="cart">
+        
+                <div style="text-align: center;"><a href="index.html"><img src="Image/logo.png" alt="Logo" width="200px" height="160px" ></a></div>
+        
+                <label style="font-size: 25px;"><strong>Add Participant<hr><br></strong></label>
+                
+                <form action="/action_page.php">
+                <input type="text" name="Fullname" placeholder="Your Fullname... "><br>
+                <input type="text" name="Address" placeholder="Shipping Address..." ><br>
+                <input type="text" name="H/P no." placeholder="HandPhone Number..." ><br>
+                    
+                    
+                    Select Event:
+                    <select>
+                    <option value="Into The Shadow">Into The Shadow</option>
+                    </select>
+                    
+                    Select your size:
+                    <select>
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    </select>
+                    
+                    Select your payment method:
+                    <select>
+                    <option value="Paypal">Paypal</option>
+                    <option value="ipay88">ipay88</option>
+                    </select>
+                    
+                    Select your area (as your address for shipment purpose):
+                    <select>
+                    <option value="Asia">Asia (RM80 will be charged)</option>
+                    <option value="Malaysia">Malaysia (RM60 will be charged)</option>
+                    <option value="Others Countries">Others Countries (RM100 will be charged)</option>
+                    </select>
+                <input type="submit" value="Submit"><br><br>
+                
+                
+                
+                
+                
+                
+                
+               
+                </form> 
+            </div>
+        </div>
+        
+        <script>
+            function leave() {
+            return "This page is asking you to confirm that you want to leave - data you have entered may not be saved.";
+                }
+</script>
+        
+    </body>
+</html>
