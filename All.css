@@ -158,5 +158,5 @@ p.backtotop{text-align: center; font-size: 30px; margin: 0px;background-color:rg
 .footer{background-color: rgb(255, 51, 51,0.3);
         color: azure;
         padding: 50px 100px;}
-a.hyperlink{text-decoration-line: none; margin-right: 10px;color: orange;}
+a.hyperlink{text-decoration: none; margin-right: 10px;color: orange;}
 a.hyperlink:hover{color: orangered;}
