@@ -18,7 +18,16 @@
         
                 <div style="text-align: center;"><a href="index.html"><img src="Image/logo.png" alt="Logo" width="200px" height="160px" ></a></div>
         
-                <label style="font-size: 25px;"><strong>Add Participant<hr><br></strong></label>
+               <label style="font-size: 25px;"><strong>Add Participant<label id="newdate" style="float: right;" ><br><hr></label><br></strong></label>
+                
+                
+                <script>
+                n =  new Date();
+                    y = n.getFullYear();
+                    m = n.getMonth() + 1;
+                    d = n.getDate();
+                    document.getElementById("currentdate").innerHTML = d + "/" + m + "/" + y;
+                </script>
                 
                 <form action="/action_page.php">
                 <input type="text" name="Fullname" placeholder="Your Fullname... "><br>
